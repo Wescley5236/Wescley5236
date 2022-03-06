@@ -1,0 +1,12 @@
+
+algoritmo "Portfolio"
+
+Var  sal, salreceber, grat, imp : real
+inicio
+escreva ("Qual o seu salário? ")
+leia (sal)
+grat <- sal * (5/100)
+imp <- sal * (7/100)
+salreceber <- (sal + grat - imp)
+escreva ("O seu salário liquido é: ", salreceber)
+fimalgoritmo
